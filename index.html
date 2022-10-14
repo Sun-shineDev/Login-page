@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  <title>Registration Page</title>
+</head>
+
+<body>
+
+  <main>
+    <form action="Success.html" class="form">
+      <h1> Registration Form</h1>
+      <div class="con">
+        <div class="form2">
+          <label for="firstname" id="firstname_label">First Name</label>
+          <input type="text" aria-labelledby="firstname_label" id="firstname" required>
+        </div>
+        <div class="form2">
+          <label for="lastname" id="lastname_label">Last Name</label>
+          <input type="text" aria-labelledby="lastname_label" id="lastname" required>
+        </div>
+        <div class="form2">
+          <label for="phonenumber" id="phonenumber_label">Phone Number</label>
+          <input type="number" aria-labelledby="phonenumber_label" id="phonenumber" required>
+        </div>
+        <div class="form2">
+          <label for="email" id="email_label">Email</label>
+          <input type="text" aria-labelledby="email_label" id="email" required>
+        </div>
+        <div class="form3">
+          <label for="gender">Gender</label>
+          <select name="Your Gender" id="gender">
+            <option value="prefer not to say">Prefer not to say</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+        <div class="form3">
+          <label for="date" id="dateofbirth_label">Pick Date of Birth</label>
+          <input type="date" aria-labelledby="dateofbirth_label" id="date">
+        </div>
+        <div class="form3">
+          <label for="color" id="color_label">Favourite color</label>
+          <input type="color" aria-labelledby="color_label" id="color">
+        </div>
+        <button class="a">Submit</button>
+        <p style="margin-top:1">or <span> <a href="./login.html">login</a></span> </p>
+      </div>
+    </form>
+  </main>
+</body>
+
+</html>
