@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat&family=Poppins&family=Sacramento&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+    padding-inline: 1rem;
+    font-family: "Montserrat", sans-serif;
+    display: grid;
+    place-items: center;
+}
+  
+.form {
+    width: clamp(9rem, 100%, 28rem);
+    margin: auto;
+    padding-block: 1.25rem;
+    padding-inline: 2rem;
+    box-shadow: 0px 5px 10px 2px rgba(9, 9, 9, 0.122);
+    border-radius: 1rem;
+    margin-top: 5vh;
+    background: rgba(16, 13, 13, 0.5);
+    color: #fff;
+}
+  
+.form + .form2 {
+    margin-top: 0.55rem;
+}
+
+  
+.form h1 {
+    font-size: 1.85rem;
+    text-align: center;
+}
+
+.form .form2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 0.0067rem solid #949191;
+    border-radius: 0.55rem;
+    padding-block: 0.75rem;
+    padding-inline: 1rem;
+}
+
+.form .form2 input{
+    all: unset;
+    max-height: 1rem;
+    margin-top: 0rem;
+}
+
+.form .form2 input [type=number]{
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
+}
+
+.form .form2 label {
+    font-size: 0.75rem;
+    color: #0d0d0d;
+}
+
+.form .a {
+    all: unset;
+    text-align: center;
+    background-color: #0d7c8b;
+    width: 100%;
+    padding-block: 0.55rem;
+    border-radius: 0.25rem;
+    margin-top: 1em;
+    color: #fff;
+  }
+
+.form .a:hover {
+    cursor: pointer;
+    background-color: #c71114;
+}
+  
+.form3 {
+    margin-top: 0.55rem;
+    display: flex;
+    flex-direction: column;
+}
+  .form3 [id=gender] {
+    margin-top: 0.25rem;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border: 0.064rem solid #8a8a8a;
+}
+
+.form3 [id=date] {
+    margin-top: 0.25em;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border: 0.0625rem solid #8a8a8a;
+  }
+
